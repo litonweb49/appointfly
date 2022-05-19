@@ -1,0 +1,648 @@
+/*
+Template Name: AppointFly
+Template URI: https://lcb.com;
+Author: Liton
+Author URL: https://liton.bd
+Description:This is Test Business Website
+Tags: Business website, html template
+Version: 1.0.0
+ 
+Table of Content
+================
+** Import CSS Files **
+** Default CSS **
+1: Header Top Area 
+2: Header Banner Area 
+
+*/
+
+/*import CSS*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+
+/*
+    font-family: 'Inter', sans-serif;
+
+*/
+
+  /***********************/
+ /**** Default CSS ******/
+/***********************/
+ html{
+    font-size: 62.5%;
+ }
+body{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+ img{
+    max-width: 100%;
+ }
+ p{
+    color: #696969;
+ }
+ h1{
+    font-weight: 700;
+    font-size: 7rem;
+}
+h2{
+    font-weight: 600;
+    font-size: 6rem;
+    color: #000000;
+}
+h3{
+    font-weight: 600;
+    font-size: 3.5rem;
+    color: #000000;
+}
+h4{
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: #EE3465;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.section-title{
+    text-align: center;
+    padding: 5rem 0;
+}
+.section-title h2{
+    max-width: 75rem;
+    margin: auto;
+    line-height: 5.7rem;
+    margin-bottom: 2rem;
+}
+.section-title p{
+    max-width: 50rem;
+    margin: auto;
+    line-height: 2.2rem;
+    color: #696969;
+}
+.section-padding{
+    padding: 7rem 0;
+}
+
+
+  /***************************/
+ /**** Header Top Area ******/
+/***************************/
+
+.header-top-area{
+    padding: 4rem 0;
+    position: relative;
+}
+.logo img{
+    height: 3.5rem;
+    width: auto;
+}
+
+/*Menu*/
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu ul li{
+    margin: 0 1.2rem;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #000;
+    text-transform: capitalize;
+    display: inline-block;
+}
+.menu ul li a:hover,
+.menu ul li.active a{
+    color: #345DEE;
+}
+
+/*Header Button*/
+.header-buttons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.header-buttons a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #000;
+    text-transform: capitalize;
+    display: inline-block;
+    margin-left: 2rem;
+    padding: 8px 15px;
+    border-radius: 1rem;
+    transition: .5s;
+    line-height: normal;
+}
+.header-buttons a:hover,
+.header-buttons a.active {
+    background: #345DEE;
+    color: #FFF;
+}
+.header-buttons a.active:hover{
+    background: #2849BA;
+}
+.menu-icon {
+    display: none !important;
+    border: 1px solid #345DEE;
+    color: #345DEE !important;
+    font-size: 2rem;
+    padding: 5px 15px !important;
+}
+.menu-icon:hover{
+    color: #FFF !important;
+}
+
+
+  /*****************************/
+ /**** Header Banner Area *****/
+/*****************************/
+.header-banner-area{
+    padding-top: 2.5rem;
+    padding-bottom: 10rem;
+}
+.banner-right{
+    text-align: right;
+}
+.banner-right img{
+    max-width: 70%;
+}
+.banner-left h1{
+    max-width: 55rem;
+    margin-bottom: 2rem;
+}
+.banner-left > p{
+    max-width: 55rem;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    color: #696969;
+}
+
+.subscribe-form form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 55rem;
+}
+.subscribe-form p{
+    font-size: 1.5rem;
+    color: #696969;
+    margin: 1rem 0; 
+}
+.subscribe-form form input[type="email"]{
+    background: #EFF2F6;
+    border: none;
+    flex: 0 0 calc(70% - 10px);
+    max-width:calc(70% - 10px);
+    padding: 1.2rem;
+    border-radius: 1rem;
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #000000;
+}
+.subscribe-form form input[type="email"]:focus{
+    outline: none;
+}
+.subscribe-form form input[type="email"]::placeholder{
+    border: none;
+}
+.subscribe-form form input[type="submit"]{
+    background: #345DEE;
+    border: none;
+    flex: 0 0 30% ;
+    max-width:30% ;
+    font-weight: 600;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    border-radius: 1rem;
+    color: #FFF;
+    padding: 1.2rem 0;
+    transition: .7s;
+}
+.subscribe-form form input[type="submit"]:hover{
+    background: #2849BA;
+}
+
+  /******************************/
+ /**** Passion Banner Area *****/
+/******************************/
+.section-title h2{
+    max-width: 75rem;
+    margin: auto;
+    padding-bottom: 2rem;
+}
+
+.passion-single-row{
+    padding: 7rem 0;
+}
+
+.passion-content{
+    max-width:45rem;
+    float: right;
+}
+.passion-content h4{
+    margin-bottom: 1rem;
+}
+.passion-content h3{
+   margin-bottom: 2rem; 
+   line-height: 3.2rem;
+}
+.passion-content p{
+    padding-right: 8.1rem;
+}
+.passion-img {
+    text-align: right;
+}
+.passion-img img{
+    max-width: 45rem;
+}
+.passion-single-row:nth-child(odd) .passion-img{
+    text-align: left;
+}
+.passion-single-row:nth-child(even) .passion-content{
+    float: left;
+}
+.passion-content a{
+    font-weight: 600;
+    color: #000000;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-decoration: none;
+
+}
+.passion-content a::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 4px;
+    width: calc(100% - 40px);
+    height: 2px;
+    background: #000;
+}
+.passion-content a:hover:after{
+    background: #345DEE;
+}
+.passion-content a:hover{
+    color: #345DEE;
+}
+.passion-content a i {
+    color: #345DEE;
+    font-size: 3rem;
+    margin-right: 1rem;
+}
+
+  /***************************/
+ /**** Team Member Area *****/
+/***************************/
+.single-member{
+    border: 2px solid #DfEAEA;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+.single-member p{
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+    color: #18214D;
+    padding-top: 2rem;
+}
+
+.member-image{
+    position: relative;
+}
+.member-image:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(10,93,255, 0.5);
+    border-radius: 1rem;
+}
+.member-image img{
+    border-radius: 1rem;
+    height: 22rem;
+    width: 100%;
+    object-fit: cover;
+}
+.team-see-more{
+    text-align: center;
+    margin-top: 6rem;
+}
+.team-gap{
+    margin: 3rem 0;
+}
+.team-see-more a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+.team-see-more a:hover{
+    color: #345DEE;
+}
+.team-see-more a img{
+    margin-left: 8px;
+}
+
+  /***************************/
+ /**** Connect Apps Area *****/
+/***************************/
+.connect-apps-area .connect-title h2{
+    max-width: 100%;
+    text-align: center;
+}
+.apps-carousel{
+    max-width: 90rem;
+    margin: auto;
+    position: relative;
+}
+.single-carousel img{
+    max-width: 11rem;
+    margin: auto;
+    height: auto;
+}
+.apps-carousel .owl-nav .owl-prev,
+.apps-carousel .owl-nav .owl-next{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    background: #EFF2F6 !important;
+    position: absolute;
+    top: 65%;
+    transform: translateY(-50px);
+}
+.apps-carousel .owl-nav .owl-prev:hover,
+.apps-carousel .owl-nav .owl-next:hover{
+    background: #345DEE !important;
+    color: #fff;
+}
+.apps-carousel .owl-nav .owl-prev{
+    left: -4rem;
+}
+.apps-carousel .owl-nav .owl-next{
+    right: -4rem;
+}
+.single-carousel{
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+  /***************************/
+ /**** Payement Area Css ****/
+/***************************/
+
+.banner-left a:hover{
+    background: #2849BA;
+
+}
+
+.banner-left a{
+    background: #345DEE;
+    border: none;
+    display: inline-flex;
+    font-weight: 600;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    border-radius: 1rem;
+    color: #FFF;
+    padding: 1.2rem 4rem;
+    text-decoration: none;
+    margin-bottom: 2rem;
+    transition: 1s;
+}
+
+.p small{
+    font-size: 1.5rem;
+}
+
+  /*************************/
+ /**** Footer Area Css*****/
+/*************************/
+
+.single-footer-items{}
+.single-footer-items h3{
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #000;
+}
+.single-footer-items ul{
+    display: inline-block;
+    list-style: none;
+}
+.single-footer-items ul li a{
+    text-decoration: none;
+    color: #696969;
+    font-size: 1.6rem;
+    display: block;
+}
+.single-footer-items ul li a:hover{
+    color: #345DEE;
+}
+.footer-top{
+    margin-bottom: 5rem;
+}
+
+/* footer-copyright */
+.footer-copyright{
+    padding: 5rem 0;
+    border-top: 1px solid #DFE4EA;
+}
+
+.footer-icons ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+.footer-icons ul li{
+    margin-left: 2rem;
+}
+.footer-icons ul li a {
+    text-decoration: none;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #000;
+    background: #EFF2F6;
+    font-size: 20px;
+    line-height: 53px;
+    text-align: center;
+    transition: 0.6s;
+}
+.footer-icons ul li a:hover{
+    background: #345DEE;
+    color: #fff;
+}
+.footer-subscriber p{
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: #000000;
+}
+
+
+
+/*Pricing Area CSS*/
+  /***************************/
+ /**** Question Area Css ****/
+/***************************/
+.pricing-banner-title h1{
+    max-width: 400px;
+}
+.pricing-banner-title p{
+    max-width: 460px;
+}
+.pricing-items-content{
+    padding-top: 5rem;
+}
+.pricing-items-content h4{
+    font-weight: 600;
+    font-size: 22px;
+    color: #000;
+    padding-top: 4rem;
+}
+.pricing-items-content ul li{
+    list-style: none;
+    padding: 1rem 0;
+}
+.pricing-items-content ul li a{
+    text-decoration: none;
+    display: block;
+    color: #000000;
+    
+}
+
+
+  /***************************/
+ /**** Pricing Area Css ****/
+/***************************/
+
+/*switch-control*/
+.pricing1{
+    padding-top: 10rem;
+}
+.switch-control{
+    position: relative;
+    padding-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.switch-control input{
+    display: none;
+}
+.switch-control .slider{
+    position: absolute;
+    width: 70px;
+    height: 35px;
+    border: 2px solid red;
+    border-radius: 35px;
+    cursor: pointer;
+    top: 0;
+    box-sizing: border-box;
+}
+.switch-control .slider:before{
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 4px;
+    top: 2.5px;
+    background: red;
+    border-radius: 50%;
+    transition: all .3s ease-in;
+}
+.switch-control input:checked + .slider:before{
+    transform: translateX(35px);
+
+}
+.free-pricing h4{
+    font-weight: 600;
+    font-size: 22px;
+    color: #000;
+    padding-top: 4rem;    
+}
+
+.filter {
+    text-align: center;
+    margin: 4rem 2rem;
+}
+.btn-info {
+    color: #000;
+    background-color: #0dcaf0;
+    border-color: #0dcaf0;
+    padding: 0.5rem 3rem;
+    border: 2px solid black;
+    font-size: 2rem;
+}
+.free-bulid h2{
+    font-weight: 600;
+    font-size: 5.6rem;
+    color: #000000;
+    padding-top: 2rem;
+}
+.free-pricing h4{
+    text-align: center;
+}
+.free-bulid{
+    text-align: center;
+    background: #EFF2F6;
+    position: relative;
+}
+
+.free-bulid p{
+    padding-bottom: 7rem;
+}
+.free-bulid a{
+    margin-top: 30rem;
+    margin-bottom: 5rem;
+}
+.free-bulid ul{}
+.free-bulid ul li{
+    list-style: none;
+    padding: 1rem 0;
+}
+
+
+
+  /***************************/
+ /**** Question Area Css ****/
+/***************************/
+.questions-title h2{
+    width: 1000px;
+    max-width: 90%;
+}
+
+.control-button{
+    display: inline-flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.control-button p:first-child{
+    margin-right: 10px;
+}
+.control-button p:last-child {
+    margin-left: 79px;
+    margin-top: 5px;
+}
